@@ -1,0 +1,19 @@
+.checkout
+{
+    display: flex;
+    height: max-content;
+    background-color: white;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    max-height: 40%;
+}
+.left
+{
+    width: 70%;
+}
+.right
+{
+    margin-left: 0%;
+}
