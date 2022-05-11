@@ -1,11 +1,32 @@
-.amount
-{
+
+.amount {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 300px;
+    height: 100px;
     padding: 20px;
-    background-color: #f3f3f3;
+    background-color: rgb(234,237,237);
     border: 1px solid #dddddd;
     border-radius: 3px;
-    margin-right: 30px;
+}
+
+.amount-gift{
+    display: flex;
+    align-items: center;
+}
+
+.amount > input{
+    margin-right: 5px;
+}
+
+.Checkout_btn {
+    background: #f0c14b;
+    border-radius: 2px;
+    width:80%;
+    height:30px;
+    border:1px solid;
+    margin-top: 10px;
+    border-color: #a88737 #9c7e31 #846a29;
+    color: #111;
 }

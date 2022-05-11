@@ -11,7 +11,7 @@ const Data = ({ content, image, price, reviews }) => {
       </div>
       <div className='review'>{Array(reviews).fill().map((_, index) => <span key={index}>🌟</span>)}
       </div>
-      <img className='images' src={image} />
+      <img className='images' src={image} alt='amazon-logo' />
       <button className='btn'>Add to Basket</button>
     </div>
   )

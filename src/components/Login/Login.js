@@ -1,35 +1,41 @@
 import React, { useState } from 'react'
 import './login.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import CreateAccount from './createaccount'
+// Importing toastify module
+// import { toast } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+// toast.configure()
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import { auth } from './firebase'
+
 function Login () {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   // const [error, setError] = useState('')
-  // const Navigate = useNavigate()
-  const signIn = async () => {
+  const Navigate = useNavigate()
+  const signIn = async (event) => {
+    event.preventDefault()
     if (email === '' || password === '') {
-      // ('Fields are required')
+      console.log('Fields are required')
       return
     }
     try {
       const user = await signInWithEmailAndPassword(auth, email, password)
       console.log(user)
       if (auth) {
-        // Navigate('/')
+        Navigate('/')
       }
     } catch (error) {
       console.log(error.message)
-      // alert(error.message)
+      //  toast('Unsucessfully')
     }
   }
   return (
     <div className='login'>
       <div>
         <Link to='/'>
-          <img className='login-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' />
+          <img className='login-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png' alt='amazon-logo' />
         </Link>
       </div>
       <div className='login-containt'>

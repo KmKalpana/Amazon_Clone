@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className='header'>
       <Link to='/'>
-        <img className='amazon-logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' />
+        <img className='amazon-logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png' alt='amazon-logo' />
       </Link>
       <p className='in'>.co.uk</p>
       <div className='header-search'>

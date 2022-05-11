@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className='homes'>
       <div className='containter'>
-        <img className='image' src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg' />
+        <img className='image' src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg' alt='amazon-logo' />
         <div className='photos'>
           <Data content='The digital Photography' price={599} image={img1} reviews={5} />
           <Data content='le Grand Hotel' price={690} image={img2} reviews={5} />
