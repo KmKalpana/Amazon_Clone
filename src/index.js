@@ -13,13 +13,17 @@ import React, { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
 import App from './App'
+import { StateProvider } from './StateProvide'
+import reducer, { initialState } from './Reducer'
 import './index.css'
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 
 root.render(
   <StrictMode>
-    <App />
+    <StateProvider initialState={initialState} reducer={reducer}>
+      <App />
+    </StateProvider>
   </StrictMode>
 )
 /* import { createRoot } from 'react-dom/client'
