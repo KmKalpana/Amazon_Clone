@@ -17,22 +17,22 @@ const Home = () => {
       <div className='containter'>
         <img className='image' src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg' alt='amazon-logo' />
         <div className='photos'>
-          <Data id={2334} title='The digital Photography' price={599} image={img1} reviews={5} />
-          <Data id={34234} title='le Grand Hotel' price={690} image={img2} reviews={5} />
-          <Data id={234234} title='Digital SLR Camera with EF S18-55 is II Lens' price='36,499' image={img3} reviews={3} />
+          <Data id='2334' title='The digital Photography' price={599} image={img1} reviews={5} />
+          <Data id='34234' title='le Grand Hotel' price={690} image={img2} reviews={5} />
+          <Data id='234233' title='Digital SLR Camera with EF S18-55 is II Lens' price={36999} image={img3} reviews={3} />
         </div>
         <div className='photos'>
-          <Data id={23423} title='Redmi Watch 2 Lite' price='4,999' image={img4} reviews={6} />
-          <Data id={2342334} title='Book' price={390} image={img5} reviews={4} />
+          <Data id='23423' title='Redmi Watch 2 Lite' price={4999} image={img4} reviews={6} />
+          <Data id='2342336' title='Book' price={390} image={img5} reviews={4} />
         </div>
         <div className='photos'>
-          <Data id={23421} title='Think and Grow Rich by Nepolian Hill.This is very motivational book which is regarding how to start a bussinesss and some motivational part.' price={390} image={img6} reviews={6} />
-          <Data id={233412} title='boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, Lightweight Earbuds, 8MM Drivers, LED Indicators and Multifunction Controls(Midnight Blue)' price='12,99' image={img7} reviews={2} />
-          <Data id={3211} title='Soulion C20 Webcam with Microphone,Full HD 1080p Webcam Camera with Slide Privacy Cover for Streaming/Calling/Gaming/Conferencing.' price={9000} image={img8} reviews={8} />
+          <Data id='23421' title='Think and Grow Rich by Nepolian Hill.This is very motivational book which is regarding how to start a bussinesss and some motivational part.' price={390} image={img6} reviews={6} />
+          <Data id='233412' title='boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, Lightweight Earbuds, 8MM Drivers, LED Indicators and Multifunction Controls(Midnight Blue)' price='12,99' image={img7} reviews={2} />
+          <Data id='3211' title='Soulion C20 Webcam with Microphone,Full HD 1080p Webcam Camera with Slide Privacy Cover for Streaming/Calling/Gaming/Conferencing.' price={9000} image={img8} reviews={8} />
         </div>
         <div className='photos'>
-          <Data id={32311} title='Kotart Modern Art Wall Decor Framed Paintings for Bedroom Room Living Room ' price={390} image={img9} reviews={4} />
-          <Data id={132242} title='The Queen: 70 Glorious' price={390} image={img10} reviews={3} />
+          <Data id='32311' title='Kotart Modern Art Wall Decor Framed Paintings for Bedroom Room Living Room ' price={390} image={img9} reviews={4} />
+          <Data id='132242' title='The Queen: 70 Glorious' price={390} image={img10} reviews={3} />
         </div>
       </div>
     </div>
