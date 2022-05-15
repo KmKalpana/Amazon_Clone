@@ -7,7 +7,6 @@ import { useStripe, useElements, CardElement } from '@stripe/react-stripe-js'
 import { getBasketTotal } from '../../Reducer'
 import CurrencyFormat from 'react-currency-format'
 import axios from '../../axios'
-import { replace } from 'tar'
 const Payment = () => {
   const [{ basket, user }, dispatch] = useStateValue();
   const stripe=useStripe();
