@@ -14,7 +14,6 @@
     "assert": "^2.0.0",
     "axios": "^0.27.2",
     "buffer": "^6.0.3",
-    "firebase": "^9.8.1",
     "firebase-tools": "^10.8.0",
     "fs": "^0.0.1-security",
     "path-browserify": "^1.0.1",
